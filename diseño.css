@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+   
+
+}
+
+:root{
+    --color_text-primary: #FF1079;
+    --color_text-segundary: #000;
+    --color_text-tertiary:#606569;
+    --main_color-primary:#552D69;
+    --main_color_segundary:#eeedd4;
+    --background-color:#FFFEB3;
+    --lowText_font_size:16px;
+    --text_size_title: 40px;
+    --text_title_card:24px;
+    --text_title_cardv2: 20px;
+    --text_paragraph:16px;
+    --box_shadow-primary:0px 6px 50px -20px rgba(0,0,0,0.2);
+    
+
+}
+
+.container__header{
+    max-width: 1500px;
+    height: 100px;
+    margin: 10px 10px;
+    background-image: linear-gradient(200deg, #00000023 100%, #0000008c 10% ),url('../imagenes/fondofloral.png');
+    background-repeat: unset;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+   
+    
+   
+}  
+
+.logo img{
+    width: 200px;
+}
+
+
+
+.info{
+    
+    margin: 30px;
+    margin-left: 10px;
+    list-style: none;
+    display:flex;  
+   
+    
+}
+
+.menu nav ul li{
+    margin: 20px;
+
+}
+
+.menu nav ul li a{
+    color: #000;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.menu nav ul li a:hover{
+    color: mediumvioletred;
+}
+
+.logo{
+
+   display: flex;
+   align-items: center;
+   margin: 50px;
+   
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu nav{
+    margin: 0px 20px;
+}
+
+
+.btn__quote{
+    display: block;
+    padding: 8px 20px;
+    border: 2px solid #FF1079;
+    color: #000;
+    border-radius: 8%;
+    margin: 10px;
+    font-weight: 400;
+    transition: all 500ms;
+}
+
+.btn__quote:hover{
+    color: azure;
+    background: #FF1079;
+}
+
+.socialMedia{
+
+    margin: 0px 10px;
+
+}
+
+.socialMedia a{
+
+    margin: 0px  10px   ;
+
+}
+
+.container__cover{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--main_color_segundary);
+}
+
+.cover{
+
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container__cover img{
+    border-radius: 100%;
+}
