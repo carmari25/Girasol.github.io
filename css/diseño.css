@@ -155,34 +155,183 @@ header{
 
 
 .text__cover h1{
-
+    width:500px;
+    margin-left: 50px;
     font-size: var(--text_size_title);
     color: var(--color_text-segundary);
 }
 
 .text__cover p{
-    
+    width:500px;
+    margin-left: 50px;
     font-size: var(--text_paragraph);
     margin-top: 40px;
     color: var(--color_text-tertiary);
 }
 
-.image__cover{
 
-    margin-left: -500px;
+
+
+.btn__text{
+    width:500px;
+    margin-left: 180px;
+    display: block;
+    background: var(--color_text-primary);
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 8%;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 300ms;
+    text-align: center;
+    font-weight: 500;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn__text:hover{
+    background: transparent;
+    border: 2px solid var(--color_text-primary);
+    color: var(--color_text-primary);
+}
+
+.container__card-primary{
+
+    padding-top: 100px;
+}
+
+.card__primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
 
 }
 
-.btn__text-cover{
-    display: block;
-    margin: 20px 500px  ;
-    border-radius: 8%;
-    padding: 10px 20px;
-    border: 2px solid var(--color_text-primary);
+.text__card-primary{
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.text__card-primary p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-primary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-segundary);
+
+}
+
+.container__box-cardPrimary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 40px;
+}
+
+.flor{
+     width: 100px;
+
+}
+
+.flor2{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.box__card-primary{
+    padding: 60px 40px;
+    max-width: 350px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
     transition: all 300ms;
 }
 
-.btn__text-cover:hover{
-    background: var(--color_text-primary);
-    color:var(--main_color_segundary);
+.box__card-primary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
 }
+
+.box__card-primary h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.box__card-primary p{
+    margin-top: 20px;
+}
+
+.container__about{
+    padding: 50px 0px;
+    background-attachment: var(--background-color);
+    margin-top: 100px;
+
+}
+
+
+.about{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    background-image: linear-gradient(100deg, #9350db7e 100%, #100f0f 100% ),url('../imagenes/lavanda.png');
+    border-radius: 10%;
+}
+
+.text__about{
+    width: 100%;
+    padding-right: 40px;
+}
+
+.text__about h1{
+    color: var(--color_text-segundary);
+    font-weight: 600;
+    margin-left: 30px;
+
+}
+
+.text__about p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    margin-left:30px ;
+    color: var(--color_text-tertiary);
+}
+
+.imagen__about{
+    display: flex;
+    width: 100%;
+    padding-left: 200px;
+    
+}
+
+.imagen__about img{
+    width: 200px;
+    
+}
+
+.flower1{
+    margin:10px -100px 10px 50px;
+    height: 100%;
+    clip-path: polygon(0 30%, 100% 28%, 51% 62%, 0% 100%);
+
+
+}
+
+.flower2{
+    
+    height: 250px;
+    clip-path: polygon(100% 100%, 100% 0%, 49% 52%, 0% 100%);
+
+}
+ /* 
